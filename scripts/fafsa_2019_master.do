@@ -17,8 +17,9 @@ FILE PURPOSE:	Master do.file
 	-Add "week name" code line in "weeklygraph" for nice graphing
 */
 
-global user "kem3e"
-global drive "C:\Users/$user/Box Sync/FAFSA research/FAFSA 2019"
+global user = c(username)
+global drive "C:\Users/$user/Box Sync/FAFSA research/FAFSA 2019" //update to where files stored on your computer
+
 global ddrive "$drive/Do Files" //storage for do.files
 global edrive "$drive/Excel - Weekly" //storage for downloaded FAFSA weekly counts (raw & clean)
 global sdrive "$drive/Stata Files - Raw" //storage for imported FAFSA weekly counts
