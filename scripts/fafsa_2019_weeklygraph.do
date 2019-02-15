@@ -60,6 +60,7 @@ use "$tdrive/national_byweek.dta"
 		replace week_name = "Jan 11" if week==13
 		replace week_name = "Jan 25" if week==14
 		replace week_name = "Feb 01" if week==15
+		replace week_name = "Feb 08" if week==16
 *		replace week_name = "Mon #" if week==#
 		
 	egen national_total_sub = total(submit_), by(week cycle_year)

@@ -29,8 +29,8 @@ global state "AK AL AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA 
 global state_cont "AL AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY"
 global state_nopr "AK AL AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY"
 	*Drop first state for merging/appending macros
-global dates_all "Oct05 Oct12 Oct26 Nov02 Nov09 Nov23 Nov30 Dec07 Dec14 Dec28 Jan04 Jan11 Jan25 Feb01" //Figure out Nov16
-global dates_cont "Oct12 Oct19 Oct26 Nov02 Nov09 Nov23 Nov30 Dec07 Dec14 Dec28 Jan04 Jan11 Jan25 Feb01" //Figure out Nov16
+global dates_all "Oct05 Oct12 Oct26 Nov02 Nov09 Nov23 Nov30 Dec07 Dec14 Dec28 Jan04 Jan11 Jan25 Feb01 Feb08" //Figure out Nov16
+global dates_cont "Oct12 Oct19 Oct26 Nov02 Nov09 Nov23 Nov30 Dec07 Dec14 Dec28 Jan04 Jan11 Jan25 Feb01 Feb08" //Figure out Nov16
 	*Drop first date for merging/appending macros
 			
 do "$ddrive/fafsa_2019_import.do"
