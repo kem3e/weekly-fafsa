@@ -20,7 +20,7 @@ FILE PURPOSE:	Master do.file
 global user = c(username)
 global drive "C:\Users/$user/Box Sync/FAFSA research/FAFSA 2019" //update to where files stored on your computer
 
-global ddrive "$drive/Do Files" //storage for do.files
+global ddrive "C:\Users/$user\Box Sync\Git Repos/weekly-fafsa/scripts" //storage for do.files
 global edrive "$drive/Excel - Weekly" //storage for downloaded FAFSA weekly counts (raw & clean)
 global sdrive "$drive/Stata Files - Raw" //storage for imported FAFSA weekly counts
 global tdrive "$drive/Stata Files - Temp" //storage for clean FAFSA weekly counts
